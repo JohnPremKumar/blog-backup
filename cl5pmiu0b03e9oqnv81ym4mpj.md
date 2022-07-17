@@ -23,7 +23,7 @@ At last, configure the plugin in your existing Vite configuration file as shown 
 export default defineConfig({
   plugins: [
     ...
-    viteFaviconsPlugin('./src/assets/logo.svg'), // change the path accordingly
+    vitePluginFaviconsInject('./src/assets/logo.svg'), // change the path accordingly
     ...
   ]
 });
